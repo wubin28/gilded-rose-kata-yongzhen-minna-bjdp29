@@ -1,4 +1,19 @@
-GiledeRose.java:66: error: invalid method declaration; return type required
-  public isSellInLess0() {
+GiledeRose.java:61: error: method updateQuality() is already defined in class GildedRose
+   public void updateQuality() {
+               ^
+GiledeRose.java:66: error: cannot find symbol
+  public bool isSellInLess0() {
          ^
-1 error
+  symbol:   class bool
+  location: class GildedRose
+GiledeRose.java:63: error: cannot find symbol
+          quality -= 2;
+          ^
+  symbol:   variable quality
+  location: class GildedRose
+GiledeRose.java:67: error: cannot find symbol
+    return (sellIn <=0) ;
+            ^
+  symbol:   variable sellIn
+  location: class GildedRose
+4 errors
