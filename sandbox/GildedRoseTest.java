@@ -42,7 +42,7 @@ public class GildedRoseTest {
 
     @Test
     public void testBackstagePassesBiggerThan10() {
-        Item[] items = new Item[] { new Item("Backstage Passes", 11, 40) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 11, 40) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(41, app.items[0].quality);
