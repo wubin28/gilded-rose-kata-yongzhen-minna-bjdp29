@@ -58,7 +58,7 @@ public class GildedRoseTest {
 
     @Test
     public void testBackstagePassesBetween0And5() {
-        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 10, 40) };
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 5, 40) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(43, app.items[0].quality);
