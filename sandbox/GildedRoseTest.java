@@ -50,7 +50,7 @@ public class GildedRoseTest {
 
     @Test
     public void testBackstagePassesBetween5And10() {
-        Item[] items = new Item[] { new Item("Backstage Passes", 10, 40) };
+        Item[] items = new Item[] { new Item("Backstage Passes", 5, 40) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(38, app.items[0].quality);
