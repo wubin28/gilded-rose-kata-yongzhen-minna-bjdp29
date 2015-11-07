@@ -39,4 +39,12 @@ public class GildedRoseTest {
         app.updateQuality();
         assertEquals(80, app.items[0].quality);
     }
+
+    @Test
+    public void testBackstagePassesBiggerThan10() {
+        Item[] items = new Item[] { new Item("Backstage Passes", 11, 40) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(39, app.items[0].quality);
+    }
 }
