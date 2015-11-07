@@ -36,5 +36,7 @@ public class GildedRoseTest {
         assertEquals(80, app.items[0].quality);
         app.updateQuality();
         assertEquals(80, app.items[0].quality);
+        app.updateQuality();
+        assertEquals(80, app.items[0].quality);
     }
 }
