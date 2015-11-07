@@ -37,6 +37,14 @@ public class GildedRoseTest {
     }
 
     @Test
+    public void testQualityIncreaseForAgedBrie() {
+        Item[] items = new Item[] { new Item("Aged Brie", 5, 50) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertTrue(app.items[0].quality == 50);
+    }
+
+    @Test
     public void testSulfuras() {
         Item[] items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", 5, 80) };
         GildedRose app = new GildedRose(items);
