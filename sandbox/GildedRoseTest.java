@@ -27,4 +27,14 @@ public class GildedRoseTest {
         app.updateQuality();
         assertTrue(app.items[0].quality > 7);
     }
+
+    @Test
+    public void testSulfuras() {
+        Item[] items = new Item[] { new Item("Sulfuras", 5, 80) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(80, app.items[0].quality);
+        app.updateQuality();
+        assertEquals(80, app.items[0].quality);
+    }
 }
