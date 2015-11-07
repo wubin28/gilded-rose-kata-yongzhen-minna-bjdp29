@@ -45,7 +45,7 @@ public class GildedRoseTest {
         Item[] items = new Item[] { new Item("Backstage Passes", 11, 40) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals(39, app.items[0].quality);
+        assertEquals(41, app.items[0].quality);
     }
 
 
