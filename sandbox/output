@@ -1,4 +1,7 @@
 GildedRoseTest.java:51: error: ';' expected
     public void testBackstagePassesBetween5And10() {
                                                 ^
-1 error
+GildedRoseTest.java:59: error: reached end of file while parsing
+}
+ ^
+2 errors
