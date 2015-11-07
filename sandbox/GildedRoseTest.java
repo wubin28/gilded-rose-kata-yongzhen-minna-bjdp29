@@ -30,7 +30,7 @@ public class GildedRoseTest {
 
     @Test
     public void testSulfuras() {
-        Item[] items = new Item[] { new Item("Sulfuras", 5, 80) };
+        Item[] items = new Item[] { new Item("Sulturas", 5, 80) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(80, app.items[0].quality);
