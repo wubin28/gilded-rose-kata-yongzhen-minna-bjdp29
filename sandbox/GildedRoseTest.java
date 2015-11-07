@@ -46,6 +46,7 @@ public class GildedRoseTest {
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(41, app.items[0].quality);
+}
 
     @Test
     public void testBackstagePassesBetween5And10() {
@@ -54,6 +55,5 @@ public class GildedRoseTest {
         app.updateQuality();
         assertEquals(42, app.items[0].quality);
     }
-
 
 }
