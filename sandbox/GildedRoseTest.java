@@ -64,4 +64,12 @@ public class GildedRoseTest {
         assertEquals(43, app.items[0].quality);
     }
 
+    @Test
+    public void testBackstagePassesWhen0() {
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 0, 40) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(0, app.items[0].quality);
+    }
+
 }
