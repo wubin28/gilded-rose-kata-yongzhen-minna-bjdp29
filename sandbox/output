@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-....E..
-Time: 0.031
+.E.....
+Time: 0.032
 There was 1 failure:
 1) testBackstagePassesBetween5And10(GildedRoseTest)
 java.lang.AssertionError: expected:<38> but was:<39>
