@@ -21,7 +21,7 @@ public class GildedRoseTest {
     }
 
     @Test
-    public void testQualityDegradeTwice() {
+    public void testQualityWhen0() {
         Item[] items = new Item[] { new Item("foo", 0, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
