@@ -57,4 +57,13 @@ class GildedRose {
             }
         }
     }
+
+   public void updateQuality() {
+        if(isSellInLess0())
+          quality -= 2;
+  }
+   
+  public isSellInLess0() {
+    return (sellIn <=0) ;
+ }
 }
