@@ -63,7 +63,7 @@ class GildedRose {
           quality -= 2;
   }
    
-  public bool isSellInLess0() {
+  public boolean isSellInLess0() {
     return (sellIn <=0) ;
  }
 }

@@ -1,11 +1,6 @@
 GiledeRose.java:61: error: method updateQuality() is already defined in class GildedRose
    public void updateQuality() {
                ^
-GiledeRose.java:66: error: cannot find symbol
-  public bool isSellInLess0() {
-         ^
-  symbol:   class bool
-  location: class GildedRose
 GiledeRose.java:63: error: cannot find symbol
           quality -= 2;
           ^
@@ -16,4 +11,4 @@ GiledeRose.java:67: error: cannot find symbol
             ^
   symbol:   variable sellIn
   location: class GildedRose
-4 errors
+3 errors
