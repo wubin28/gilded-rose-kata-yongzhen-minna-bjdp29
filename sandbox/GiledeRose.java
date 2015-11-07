@@ -60,8 +60,8 @@ class GildedRose {
 
    public void updateQuality() {
      for (int i = 0; i < items.length; i++) {
-        if(item[i].isSellInLess0())
-          item[i].quality -= 2;
+        if(items[i].isSellInLess0())
+          items[i].quality -= 2;
      }
   }
    

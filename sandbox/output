@@ -2,18 +2,13 @@ GiledeRose.java:61: error: method updateQuality() is already defined in class Gi
    public void updateQuality() {
                ^
 GiledeRose.java:63: error: cannot find symbol
-        if(item[i].isSellInLess0())
-           ^
-  symbol:   variable item
-  location: class GildedRose
-GiledeRose.java:64: error: cannot find symbol
-          item[i].quality -= 2;
-          ^
-  symbol:   variable item
-  location: class GildedRose
+        if(items[i].isSellInLess0())
+                   ^
+  symbol:   method isSellInLess0()
+  location: class Item
 GiledeRose.java:69: error: cannot find symbol
     return (sellIn <=0) ;
             ^
   symbol:   variable sellIn
   location: class GildedRose
-4 errors
+3 errors
