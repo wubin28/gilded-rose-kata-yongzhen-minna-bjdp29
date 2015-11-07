@@ -21,6 +21,14 @@ public class GildedRoseTest {
     }
 
     @Test
+    public void testQualityDegradeTwice() {
+        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(0, app.items[0].quality);
+    }
+
+    @Test
     public void testQualityIncreaseForAgedBrie() {
         Item[] items = new Item[] { new Item("Aged Brie", 5, 7) };
         GildedRose app = new GildedRose(items);
