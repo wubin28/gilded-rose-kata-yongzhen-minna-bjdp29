@@ -37,7 +37,7 @@ public class GildedRoseTest {
     }
 
     @Test
-    public void testQualityIncreaseForAgedBrie() {
+    public void testQualityIncreaseForAgedBrieAlwaysLess50() {
         Item[] items = new Item[] { new Item("Aged Brie", 5, 50) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
